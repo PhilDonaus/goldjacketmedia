@@ -1,0 +1,454 @@
+#menu-pop li{
+  list-style-type: none;
+}
+
+
+.menu-modal {
+  font-size: 30em;
+  color:gold;
+  background-color: black;
+  height: 50em;
+  width: auto !important;
+  min-width: 100em;
+  max-width: 200em;
+  position: static;
+  top:30em;
+  left: 0;
+  z-index: 10;
+  padding: 5em;
+  text-align: center !important;
+}
+
+.menu-modal img {
+  position: relative;
+  right:-15%;
+  align-self: auto;
+  height: 50em;
+  width: 57em;;
+  transform: translate(60%,-12%);
+  background-color: black;
+  border: solid gold 2em !important;
+  border-radius: 50%;
+}
+
+
+.thefooter h3{
+  color:white;
+}
+
+.thefooter {
+  height: 30vh;
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
+  z-index: 1;
+  align-content: center;
+  text-align: center;
+}
+
+.thefooter p{
+  color: gold;
+  font-size: 15em !important;
+  align-content: center;
+}
+
+.thefooter ul {
+  border-radius: 15em;
+  padding: 0;
+  margin-bottom: 30em;;
+}
+
+.thefooter li {
+  display:inline;
+  color:gold;
+  padding: 20em 15em;
+  list-style-type:none;
+}
+
+.thefooter li:hover{
+  background-color: rgba(255,255,255,0.5);
+}
+
+.container-fluid {
+  padding: 0 10vw !important;
+}
+
+
+th {
+  text-align: center;
+}
+
+.tiles h3 {
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+}
+
+.tiles h1 {
+  color:gold;
+  font-size: 50em;
+}
+
+.tiles {
+  height: 50vh;
+  width: auto;
+  align-content: center;
+  overflow: hidden;
+  box-shadow: 0em 10em 15em rgba(0,0,0,0.7);
+  text-align: center;
+  padding: 5% 0em;
+}
+
+.tiles img {
+  position: absolute;
+  max-height: 120%;
+  max-width: 140%;
+  min-width: 110%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  filter: grayscale(0.8);
+}
+
+
+.myhover:hover .my-tooltip p{
+  display: block;
+  transition: ease 1s;
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+}
+
+
+.my-tooltip {
+  position:absolute;
+  bottom:0;
+  right:0;
+  transition: ease 1s;
+  max-width: 100%;
+}
+
+
+
+.my-tooltip p{
+  padding: 10em;
+  background-color: transparent;
+  border-radius: 15em;
+  font-size: 20em;
+  color: transparent;
+  max-width: 70%;
+  
+}
+
+.chevron {
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  background-color: #004772;
+  height: 400em;
+  width: 400em;
+  margin: 30em auto;
+  box-shadow: 0em 10em 15em rgba(0,0,0,0.7);
+  overflow: hidden;
+  
+}
+
+.chevron img {
+  height:auto;
+  min-height: 110%;
+  max-width: 100%;
+  
+}
+
+
+.lookthru {
+  border: solid rgba(0,0,0,0.7) 15em;
+  border-radius: 50%;
+  overflow: hidden;
+  min-height: 400em;
+  min-width: 400em;
+  height: 50vh;
+  width: 50vh;
+  margin: 30em auto;
+  box-shadow: 0em 10em 15em rgba(0,0,0,0.7);
+}
+
+.lookthru img {
+  height:auto;
+  min-height: 110%;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+
+.lookthru h3 {
+  background-color: rgba(0,0,0,0.7);
+  color:gold;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  margin: 0 auto;
+  z-index: 3;
+  padding: 5em 100em 5em 10em;
+  border-radius: 100em;
+  
+  
+}
+
+.myjumbo p {
+  font-size: 28em !important;
+  color:black;
+  background-color: rgba(255,255,255,0.7);
+  padding: 15em;
+  box-shadow: 0em 10em 15em rgba(0,0,0,0.7);
+}
+
+
+.myjumbo table {
+  text-align: center;
+  width: 100%;
+  font-size: 20em !important;
+  color:rgba(255,255,255,0.7);
+  background-color: black;
+  padding: 15em;
+  box-shadow: 0em 10em 15em rgba(0,0,0,0.7);
+}
+.myjumbo td {
+  padding: 10em;
+}
+.myjumbo th {
+  padding: 10em;
+}
+
+
+.myjumbo tr {
+  text-align: left;
+}
+
+.myjumbo ul {
+  font-size: 28em !important;
+  text-align: left;
+  color:black;
+  background-color: rgba(255,255,255,0.7);
+  padding: 10em;
+  box-shadow: 0em 10em 15em rgba(0,0,0,0.7);
+  list-style-type: none;
+}
+
+.icon-mini {
+  position:absolute;
+  z-index: 2;
+  bottom:15%;
+  right:15%;
+  min-height: 75em;
+  max-height: 10vh;
+}
+
+button {
+  padding: 10em;
+  background-color: gold;
+  border: none;
+  border-radius: 15em !important;
+  color:black;
+  font-size:18em !important;
+}
+
+
+h2{
+  font-size: 40em !important;
+  color: rgba(255,255,255,0.9) !important;
+  background-color: rgba(0,0,0,0.8);
+  box-shadow: 0em 10em 15em rgba(0,0,0,0.7);
+  text-align: center;
+}
+
+
+.banner {
+  height: auto;
+  width: 100%;
+  background-color: rgba(0,0,0,0.7);
+  text-align: center;
+  margin:auto;
+  padding: 10em 0em;
+  box-shadow: 0em 10em 15em rgba(0,0,0,0.7);
+}
+
+
+body{
+  font-family: "Tw Cen MT" !important;
+}
+
+
+.row {
+  margin:0 !important;
+}
+
+
+.center-child {
+  margin: 30% auto;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+}
+
+.myjumbo {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+  text-wrap: wrap;
+}
+
+
+.myjumbo h1 {
+  font-size: 90em;
+  color:gold;
+}
+
+.myjumbo h2 {
+  font-size: 40em;
+  color: rgba(255,255,255,0.7);
+  margin-top: 20em;
+  
+}
+
+
+.center-child h1 {
+  font-size: 90em;
+  color:gold;
+}
+
+
+.center-child h2{
+  font-size: 40em;
+  color: rgba(255,255,255,0.7)
+}
+
+.phone {
+  min-height: 600em;
+  height:70vh;
+  min-width:250em;
+  max-width:350em;
+  border: solid rgba(0,0,0,0.7) 15em;
+  border-radius: 50em;
+  margin:30em auto;
+  overflow:hidden;
+  box-shadow: 0em 10em 15em rgba(0,0,0,0.7);
+}
+
+.phone img{
+  min-height: 100%;
+  min-width:100%;
+  max-height: 100vh;
+}
+
+
+.cellphone {
+  background-color: transparent;
+  height: 70vh;
+  min-height: 500em;
+  width: auto;
+  min-width:350em;
+  max-width: 400em;
+  margin-top: 100em;
+  border-radius: 50em;
+  border-color: white;
+  border: solid white 20em;
+  overflow: hidden;
+}
+
+.glass {
+  position: relative;
+  background-color:transparent;
+  filter: blur(15em);
+  height:100%;
+  width:100%;
+  padding:0;
+}
+
+
+#v0 {
+  position:fixed;
+  bottom:0;
+  right:0;
+  min-width:100%;
+  min-height:100%;
+}
+
+#set-height {
+  display: block;
+}
+
+section {
+  z-index: 1;
+  position: relative;
+}
+
+.content {
+  position: sticky;
+  position: -webkit-sticky;
+  width: 100%;
+}
+
+
+section:nth-of-type(1) {
+    min-height: 100%;
+    margin-bottom: 10%;
+}
+section:nth-of-type(2) {
+    min-height: 100%;
+  margin-bottom: 10%;
+}
+section:nth-of-type(3) {
+    min-height: 100%;
+  margin-bottom: 10%;
+}
+section:nth-of-type(4) {
+  min-height: 100%;
+  margin-bottom: 10%;
+}
+section:nth-of-type(5) {
+  min-height: 100%;
+  margin-bottom: 10%;
+}
+
+section:nth-of-type(6) {
+  min-height: 100%;
+  margin-bottom: 10%;
+}
+
+.entered {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2018-7-4 16:24:12
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation text-focus-in
+ * ----------------------------------------
+ */
+ @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12em);
+              filter: blur(12em);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0em);
+              filter: blur(0em);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12em);
+              filter: blur(12em);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0em);
+              filter: blur(0em);
+      opacity: 1;
+    }
+  }

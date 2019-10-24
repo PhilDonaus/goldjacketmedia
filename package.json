@@ -1,0 +1,16 @@
+{
+    "name": "GoldJacketHome",
+    "description": "Gold Jacket Media Default Templates",
+    "version": "1.0.0",
+    "engines": {
+        "ghost-api": "v2"
+    },
+    "license": "MIT",
+    "author": {
+        "email": "philippe.donaus@gmail.com"
+    },
+    "config": {
+        "posts_per_page": 10,
+        "image_sizes": {}
+    }
+}
